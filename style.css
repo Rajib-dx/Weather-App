@@ -7,7 +7,7 @@
 body{
     background-color: #222;
 }
-.card{
+@media (max-width: 480px){.card{
     width: 90%;
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
@@ -105,3 +105,4 @@ body{
     display: none;
 }
 
+}
